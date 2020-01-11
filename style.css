@@ -1,0 +1,160 @@
+.background {
+	margin-top: -40px;
+	background-color: #E3DBDB;
+	z-index: 1;
+}
+
+.lampu {
+	display: block;
+	width: 650px;
+	height: 610px;
+	background-image: linear-gradient(to top, rgba(255, 99, 71, 0), rgb(255, 255, 255, 0.5));
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	margin-left: 100px;
+	clip-path: polygon(0% 0%, 30% 0%, 100% 100%, 75% 100%, 75% 100%, 50% 100%, 0% 100%);
+}
+
+/* .lampu:hover {
+	background-color: rgb(255, 251, 17, 0.5);
+
+} */
+
+.navbar {
+	position: relative;
+    background-color: #E3DBDB;
+	font-family: Racing Sans One;
+	margin-top: 40px;
+}
+
+
+.navbar-logo {
+    font-family: Racing Sans One;
+    font-size: 32px;
+    margin-left: -20px;
+}
+
+.container .mobil {
+	/* margin-bottom: -130px; */
+} 
+.mobil {
+	width: 1200px;
+	height: 400px;
+	margin-top: 60px;
+	margin-left: 70px;
+	
+}
+
+.mobil img {
+	width: 950px;
+	position: absolute;
+}
+
+/* .mobil img:hover {
+	width: 950px;
+	position: absolute;
+	z-index: 100;
+} */
+
+/* .mobil::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 140px;
+	height: 90px;
+	/* background-color: white; */
+	/* margin-top: 159px;
+	margin-left: -104px;
+	-webkit-clip-path: polygon(0 0, 100% 25%, 100% 70%, 0 100%); */
+/* }  */ */
+
+/* .mobil:hover::after {
+	background-color: rgb(255, 251, 17, 0.5);
+} */
+
+/* .text-above {
+	color: white;
+	margin-top: -100px;
+} */
+
+.title-one {
+	color: black;
+	border-left: 3px solid black ;
+	margin-top: 150px;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+
+.title-two {
+	margin-top: 50px;
+	font-size: 90px;
+	position: static;
+}
+
+#paragraf-one {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: static;
+}
+
+img#img-one {
+	width: 130%;
+}
+
+#bemper {
+	margin-top: 150px;
+	margin-left: 50px;
+}
+
+#title-bemper-one {
+	color: black;
+	font-size: 60px;
+	margin-top: 130px;
+	margin-bottom: 100px;
+}
+
+#title-bemper-two {
+	font-size: 24px;
+	margin-bottom: 100px;
+}
+
+#more {
+	margin-bottom: 100px;
+	background-color: #AEAEAE;
+	border: none;
+}
+
+#purchase {
+	margin-bottom: 100px;
+	background-color: #32B8B3;
+	border: none;
+}
+
+#button-send {
+	background-color: #32B8B3;
+	object-position: right;
+}
+
+.vid {
+	margin-top: 100px;
+	margin-left: 10px;
+	width: 560px;
+	height: 318px;
+	
+	
+}
+
+.vid::after {
+	width: 560px;
+	height: 318px;
+	color: black;
+	margin-top: 110px;
+	margin-left: 10px;
+	z-index: 1;
+
+}
+.footer {
+	padding: 3px;
+	font-size: 12px;
+}
